@@ -3,6 +3,6 @@ This project is a Gobang Game GUI that provides a Gobang board and basic operati
 
 The code of the GUI are stored in src/UI.java
 
-To run the executable jar, please download Gobang.jar and run.bat and then run the latter file.
+To run the executable jar, please download Gobang.jar and run.bat and then run the latter file. (The new version with AI will be uploaded soon)
 
 Note: The execution of the jar file needs the JAVA Runtime Environment.
