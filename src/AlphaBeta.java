@@ -133,7 +133,7 @@ public class AlphaBeta {
 	private static int cal_score(int count, int enemy) {
 		int score = 0;
 		if(count>=5)
-			score += 100000;
+			score += 1000000;
 		if(count==4&&enemy<2)
 			score += 100000;
 		else if(count==3) {
