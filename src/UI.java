@@ -391,7 +391,7 @@ public class UI extends JFrame{
                 	if(count<4)
                 		t = EasyAI.evaluate(chess, chesscolor);
                 	else
-                		t = AlphaBeta.AI(chess, chesscolor, 4, 2);
+                		t = AlphaBeta.AI(chess, chesscolor, 2, 2);
                 	paintchesspiece(X+t[0]*((int)SIZE), Y+t[1]*((int)SIZE));
                 	pause = false;
                 	operations[0].setEnabled(true);
